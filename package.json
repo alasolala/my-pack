@@ -1,0 +1,20 @@
+{
+  "name": "my-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/magicsoso/my-pack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/magicsoso/my-pack/issues"
+  },
+  "homepage": "https://github.com/magicsoso/my-pack#readme"
+}
