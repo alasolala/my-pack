@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack",
+    "myPack": "node ./lib/my-pack.js --config webpack.config.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,16 @@
   "bugs": {
     "url": "https://github.com/magicsoso/my-pack/issues"
   },
-  "homepage": "https://github.com/magicsoso/my-pack#readme"
+  "homepage": "https://github.com/magicsoso/my-pack#readme",
+  "devDependencies": {
+  },
+  "dependencies": {
+    "@babel/core": "^7.13.13",
+    "@babel/generator": "^7.13.9",
+    "@babel/parser": "^7.13.13",
+    "@babel/preset-env": "^7.13.12",
+    "@babel/traverse": "^7.13.13",
+    "cheerio": "^1.0.0-rc.5",
+    "tapable": "^2.2.0"
+  }
 }
