@@ -7,17 +7,17 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist')
   },
-  // module: {
-  //   rules: [
-  //     {
-  //       test: /\.js$/,
-  //       use: [
-  //         path.resolve(__dirname, 'lib/loaders/remove-console-loader.js'),
-  //         path.resolve(__dirname, 'lib/loaders/add-author-loader.js')
-  //       ]
-  //     }
-  //   ]
-  // },
+  module: {
+    rules: [
+      {
+        test: /\.js$/,
+        use: [
+          path.resolve(__dirname, 'lib/loaders/remove-console-loader.js'),
+          path.resolve(__dirname, 'lib/loaders/add-author-loader.js')
+        ]
+      }
+    ]
+  },
   plugins: [
     new HtmlPlugin({
       template: './src/index.html',
